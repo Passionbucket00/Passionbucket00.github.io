@@ -75,7 +75,7 @@
   // Your custom JavaScript goes here
   var myImage = document.querySelector('img');
 
-  myImage.onmouseover = function() {
+  myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/lion.png') {
       myImage.setAttribute ('src','images/lion2.png');
